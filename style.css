@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 150px;
+    font-size: xx-large;
+    margin-top: 20px;
+
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.navbar {
+    display: flex;
+    height: 100px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.container {
+    max-width: 80vw;
+}
+
+.section1 {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 90vh;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.section1 h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 250px;
+
+}
+
+.departments h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.but:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.but:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.but:nth-child(4) {
+    transition-delay: 600ms;
+}
+
+.but {
+    margin: 4.5rem;
+
+}
+
+.type {
+    max-width: 100%;
+}
+
+.type1 {
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 10px;
+    font-family: 'Bebas Neue', cursive;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 10s;
+    cursor: 1s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+}
+
+header {
+    background-color: rgb(8, 131, 255);
+}
+
+.but:hover {
+    transform: translateY(-15px);
+    transition-delay: 0ms;
+
+}
+
+.cont h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.cont p {
+    font-weight: bold;
+    text-align: center;
+    min-height: 50px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 2px;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: #555;
+    font-size: 14px;
+}
